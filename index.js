@@ -28,11 +28,11 @@ const questions = [
     {
         type: 'input',
         message: 'Add any contributors to your project.',
-        name: 'contributions'
+        name: 'contributors'
     },
     {
         type: 'input',
-        messsage: 'Include any testing information for your application.',
+        message: 'Include any testing information for your application.',
         name: 'testing'
     },
     {
@@ -54,10 +54,20 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) =>
+        err ? console.error(err) : console.log('Readme created!'));
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions)
+        .then((data) => {
+            const md = generateMarkdown(data);
+            writeToFile('README.md', md);
+        })
+        .catch((err) => console.error(err)); 
+}
 
 // Function call to initialize app
 init();
