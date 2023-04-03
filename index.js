@@ -26,6 +26,12 @@ const questions = [
         name: 'usage'
     },
     {
+        type: 'list',
+        message: 'What type of license are you using for your application?',
+        name: 'license',
+        choices: ['MIT', 'ISC', 'None']
+    },
+    {
         type: 'input',
         message: 'Add any contributors to your project.',
         name: 'contributors'
@@ -34,12 +40,6 @@ const questions = [
         type: 'input',
         message: 'Include any testing information for your application.',
         name: 'testing'
-    },
-    {
-        type: 'list',
-        message: 'What type of license are you using for your application?',
-        name: 'license',
-        choices: ['MIT', 'ISC', 'None']
     },
     {
         type: 'input',
