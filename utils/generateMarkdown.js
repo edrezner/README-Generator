@@ -1,7 +1,8 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  return license === 'None' ? '' : `[![License](https://img.shields.io/badge/License-${license}-yellow.svg)](https://opensource.org/licenses/${license})`;
+  const color = license === 'MIT' ? 'yellow' : 'blue'; 
+  return license === 'None' ? '' : `[![License](https://img.shields.io/badge/License-${license}-${color}.svg)](https://opensource.org/licenses/${license})`;
 }
 
 // TODO: Create a function that returns the license link
