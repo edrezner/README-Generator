@@ -1,42 +1,22 @@
-# some_title
-
-  [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# README Generator
 
   ## Description
 
-  some_description
+  This application generates a readme (.md) file from a series of command line prompts.
 
-  ## Table of Contents
+  Preview Images:
 
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contributors](#contributors)
-  - [Test Information](#testing)
-  - [Questions](#questions)
+  ![Command Line](./assets/images/preview1.png)
 
-  ## Installation
+  ![Command Line](./assets/images/preview2.png)
 
-  install_instruct
 
   ## Usage
   
-  usage_instruct
-
-  ## License
-
-MIT
-
-
+  From the command line, run 'node index' and answer the prompts. Once the final prompt is completed a readme file is created containing all the answers and information submitted by the user.
 
   ## Contributors
 
-  some_contributors
+  1. Natasha Mann - Helped finalize the license functions within the generateMarkdown file.
 
-  ## Testing
 
-  testing_info
-
-  ## Questions
-
-  If you have any questions you can reach me at edrezner7@gmail.com. Visit my GitHub [edrezner](https://www.github.com/edrezner) to see more of my work.
