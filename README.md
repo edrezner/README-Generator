@@ -10,6 +10,8 @@
 
   ![Command Line](./assets/images/preview2.png)
 
+  [Preview Video](https://drive.google.com/file/d/1TqtizRgc0jTGZVwbpUkubkNWrqTzD_bf/view)
+
 
   ## Usage
   
