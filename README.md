@@ -1,24 +1,21 @@
 # README Generator
 
-  ## Description
+## Description
 
-  This application generates a readme (.md) file from a series of command line prompts.
+This application generates a readme (.md) file from a series of command line prompts.
 
-  Preview Images:
+Preview Images:
 
-  ![Command Line](./assets/images/preview1.png)
+![Command Line](./assets/images/preview1.png)
 
-  ![Command Line](./assets/images/preview2.png)
+![Command Line](./assets/images/preview2.png)
 
-  [Preview Video](https://drive.google.com/file/d/1TqtizRgc0jTGZVwbpUkubkNWrqTzD_bf/view)
+[Preview Video](https://drive.google.com/file/d/1TqtizRgc0jTGZVwbpUkubkNWrqTzD_bf/view)
 
+## Usage
 
-  ## Usage
-  
-  From the command line, run 'node index' and answer the prompts. Once the final prompt is completed a readme file is created containing all the answers and information submitted by the user.
+From the command line, run 'node index' and answer the prompts. Once the final prompt is completed a readme file is created containing all the answers and information submitted by the user.
 
-  ## Contributors
+## Contributors
 
-  1. Natasha Mann - Helped finalize the license functions within the generateMarkdown file.
-
-
+1. Natasha Mann - Helped finalize the license functions within the generateMarkdown file.

@@ -23,7 +23,7 @@ const questions = [
     {
         type: 'input',
         message: 'Please enter usage instructions.',
-        name: 'usage'
+        name: 'usage'   
     },
     {
         type: 'list',
